@@ -139,5 +139,118 @@ nav ul li a {
 nav ul li a:hover {
     color: #920000;
 }
-
 /* end: header styles */
+/*start: banner sector*/
+#banner-image {
+    background: url('../../img/banner.jpg') top center no-repeat;
+    height: 820px;
+}
+.banner-text {
+    max-width: 1200px;
+    margin: -30px auto 0;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+}
+
+.banner-text h1 {
+    color: #eee;
+    font-size: 3.5em;
+    font-weight: 300;
+    margin: 0.5em 0;
+}
+
+.banner-text span {
+    color: #920000;
+}
+
+.banner-text h5 {
+    color: #eee;
+    font-size: 0.85em;
+    font-weight: 300;
+    max-width: 500px;
+    line-height: 2;
+    margin-bottom: 2.5em;
+}
+
+.banner-text button {
+    background-color: #920000;
+    color: #131313;
+    border-radius: 25px;
+    padding: 15px 25px;
+    font-size: 0.85em;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+/* end: banner sector*/
+/* start: media query*/
+@media (max-width:990px){
+    .flex {
+        max-width: 720px;
+    }
+
+    nav ul li {
+        margin: 0 12px;
+        font-size: 0.85em;
+    }
+}
+@media (max-width: 767px) {
+    h4 {
+        font-size: 1.2em;
+    }
+
+    .flex {
+        max-width: 540px;
+    }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 101%;
+        width: 100%;
+        background-color: #131313;
+        left: 0;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+    }
+
+    nav ul li {
+        display: block;
+        padding: 15px 0 15px 20px;
+        border-bottom: 1px solid #920000;
+        margin: 0;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    .header-menu {
+        display: block;
+        margin-top: 2px;
+    }
+    #banner-image {
+        height: 650px;
+        background-size: cover;
+    }
+
+    .banner-text {
+        margin-top: -85px;
+    }
+
+    .bannner-text h1 {
+        font-size: 2.5em;
+    }
+
+}
+@media (max-width: 400px) {
+    .logo img {
+        width: 150px;
+        margin-top: 2px;
+    }
+}
+/* end: media query*/
