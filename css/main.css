@@ -200,23 +200,29 @@ main{
       margin-right: 15%;
       border-top: 2px solid #920000;
       border-bottom: 2px solid #920000;
+      background-color: #f0f0f0;
   }
     .main-sector-left {
     float: left;
     width: 61%;
     padding-left: 10px;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     background-color: #F9F9F9;
+    border-right: 1px solid #920000;
     box-sizing: border-box;
+    }
+    .main-sector-left span{
+        color: #920000;
+        margin: 0;
+        padding: 0;
     }
     .main-sector-right {
     float: left;
     padding-top: 20px;
     padding-left: 20px;
     width: 39%;
-    background-color: #F0F0F0;
-    border-left: 1px solid #920000;
+    
     box-sizing: border-box;
       }
       
