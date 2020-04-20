@@ -151,6 +151,7 @@ nav ul li a:hover {
     background-size: cover;
     margin: 0;
     padding: 0;
+    background-attachment: fixed;
 }
 .nofixed{ 
     position: fixed; 
@@ -408,19 +409,6 @@ footer ul li a:hover {
         display: block;
         margin-top: 2px;
     }
-    #banner-image {
-        height: 650px;
-        
-        background-size: cover;
-    }
-
-    .banner-text {
-        margin-top: -85px;
-    }
-
-    .bannner-text h1 {
-        font-size: 2.5em;
-    }
     footer ul li {
         margin: 0 10px;
     }
@@ -437,21 +425,28 @@ footer ul li a:hover {
     }
 }
 @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
+    .main-sector-left, .main-sector-right{
       width: 100%;
       padding: 0;
     }
   }
   @media screen and (max-width: 900px) {
-    .column {
-      width: 50%;
+    .main-sector {
+      width: 80%;
+      margin-left: 10px;
+      margin-right: 10px;
+      float:center; 
+
     }
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
+    .main-sector{
+      width: 93%;
+      margin-left: 10px;
+      margin-right: 10px;
+      float: center;
     }
   }
   @media screen and (max-width: 600px) {
