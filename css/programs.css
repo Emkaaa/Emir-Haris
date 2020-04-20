@@ -5,10 +5,10 @@
 body{
     width: 100%;
     width: 100%;
-display: grid;
-grid-gap: 0px;
-grid-template-columns: 10% 50% 30% 10%;
-grid-template-rows: 10% min-content min-content 10% ;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 10% 50% 30% 10%;
+    grid-template-rows: 10% min-content min-content 10% ;
 }
 .header-logo{
     height: 2rem;
