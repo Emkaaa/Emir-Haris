@@ -144,52 +144,24 @@ nav ul li a:hover {
 }
 /* end: header styles */
 /*start: banner sector*/
-#banner-image {
-    background: url('../img/banner.jpg') top center no-repeat;
-    height: 820px;
-    background-size : cover;
-}
-.banner-text {
-    max-width: 1200px;
-    margin: -30px auto 0;
-    position: absolute;
-    top: 40%;
-    left: 0;
-    right: 0;
-    padding: 0 20px;
-}
+.fixed {
+    overflow: hidden;
+    background-image: url(../img/back.jpg);
+    background-size : center ;
+    background-repeat: no-repeat;
 
-.banner-text h1 {
-    color: #eee;
-    font-size: 3.5em;
-    font-weight: 300;
-    margin: 0.5em 0;
+    margin: 0;
+    padding: 0;
 }
+.nofixed{ 
+    position: fixed; 
+    overflow-y: scroll;
+    top: 0; right: 0; bottom: 0; left: 0;
 
-.banner-text span {
-    color: #920000;
 }
-
-.banner-text h5 {
-    color: #eee;
-    font-size: 0.85em;
-    font-weight: 300;
-    max-width: 500px;
-    line-height: 2;
-    margin-bottom: 2.5em;
+main{
+    overflow: visible;
 }
-
-.banner-text button {
-    background-color: #920000;
-    color: #131313;
-    border-radius: 25px;
-    padding: 15px 25px;
-    font-size: 0.85em;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-}
-/* end: banner sector*/
 
   .card{
     border-top: 2px solid #920000;
@@ -197,7 +169,11 @@ nav ul li a:hover {
   }
   .card h5{
       color: gray;
+      margin: 0px;
   }
+  .card h3{
+    margin: 0px;
+}
   .card p{
       color: gray;
   }
@@ -426,6 +402,7 @@ footer ul li a {
     }
     #banner-image {
         height: 650px;
+        
         background-size: cover;
     }
 
