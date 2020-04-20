@@ -75,6 +75,7 @@ text-align: center;
     .main-right{
         grid-column: 2/4;
         grid-row: 4/5;
+        margin-bottom: 20px;
     }
     .footer{
         grid-row: 5/6;
